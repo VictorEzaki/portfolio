@@ -6,6 +6,7 @@
     --font: "Sora", sans-serif;
     color: white;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -152,12 +153,20 @@ body{
 }
 .sections-container a{
     display: flex;
+    text-align: center;
     flex-direction: column;
     width: 20rem;
     height: 20rem;
     background-color: rgba(1, 40, 64, 70%);
     border-radius: 0.5rem;
     text-decoration: none;
+}
+.sections-container a span{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sections-container a img{
     width: 100%;
