@@ -44,8 +44,8 @@ export default function Tecnologias() {
                         <ul>
                             <li>NodeJs</li>
                             <li>JavaScript</li>
-                            <li>Sequelize</li>
                             <li>TypeScript</li>
+                            <li>Sequelize</li>
                             <li>Express</li>
                             <li>bcrypt</li>
                             <li>JSON Web Tokens</li>
